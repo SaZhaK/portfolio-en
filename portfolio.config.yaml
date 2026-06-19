@@ -76,7 +76,7 @@ sections:
   - { id: education,      show: true  }
   - { id: certifications, show: true  }
   - { id: publications,   show: false }
-  - { id: testimonials,   show: true  }
+  - { id: testimonials,   show: false  }
   - { id: contact,        show: true  }
 
 # ── Social links ───────────────────────────── (leave blank to hide) ───
@@ -261,7 +261,7 @@ experience:
     role: "Java Developer (Intern)"
     period: "2020-07 – 2020-08"
     description: |
-      Project:
+      Project:<br>
       Data transmission quality analytics system for mobile operator network
 
       Responsibilities:
@@ -322,26 +322,12 @@ education:
 
 # ── Certifications ─────────────────────────────────────────────────────
 certifications:
-  - title: "AWS Certified Solutions Architect – Associate"
-    issuer: "Amazon Web Services"
-    date: "2023"
-    credentialUrl: "https://aws.amazon.com/verification"
-    badgeUrl: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
-    tags: [Cloud, Architecture, AWS]
-
-  - title: "Professional Scrum Master I"
-    issuer: "Scrum.org"
-    date: "2022"
-    credentialUrl: "https://www.scrum.org/certificates"
-    badgeUrl: "https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9e11-2a8f48155adc/image.png"
-    tags: [Agile, Scrum, Leadership]
-
   - title: "Google Professional Data Engineer"
     issuer: "Google Cloud"
     date: "2021"
     credentialUrl: ""
     badgeUrl: ""
-    tags: [Data, GCP, BigQuery]
+    tags: [English]
 
 
 # ── Publications ───────────────────────────────────────────────────────
