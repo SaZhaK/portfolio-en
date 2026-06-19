@@ -70,7 +70,7 @@ sections:
   - { id: about,          show: true  }
   - { id: stats,          show: false }  # Stats already appear as cards in the About section above — enable this only if you want a dedicated full-width stats section
   - { id: skills,         show: true  }
-  - { id: languages,      show: true  }
+  - { id: languages,      show: false  }
   - { id: experience,     show: true  }
   - { id: projects,       show: false  }
   - { id: education,      show: true  }
@@ -108,9 +108,6 @@ about: |
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
 stats:
-  - { label: "Years Experience", value: 5,    suffix: "+" }
-  - { label: "Projects Shipped", value: 20,   suffix: "+" }
-  - { label: "Happy Clients",    value: 50,   suffix: "+" }
 
 # Examples of other combinations you can use:
 #   - { label: "Active Users",    value: 10000, suffix: "+" }
@@ -137,7 +134,7 @@ skills:
   - category: "Databases"
     items: [PostgreSQL, Oracle, Liquibase]
   - category: "Messaging"
-    items: [RabbitMQ, Kafka, JMS]
+    items: [RabbitMQ, Kafka, JMS, MQTT]
   - category: "DevOps / Infrastructure"
     items: [Docker, TeamCity, GitLab CI, GitHub Actions, Nexus, Maven]
   - category: "Testing"
