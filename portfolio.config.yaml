@@ -23,7 +23,7 @@ tagline: "I build free portfolios and resumes for everyone."
 email: "kaa5843771@yandex.ru"
 phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
 location: "Saint Petersburg, Russia"
-avatarUrl: "https://github.com/SaZhaK/sazhak/blob/main/public/avatar.jpg"  # Demo avatar — replace with your own photo URL (see instructions below)
+avatarUrl: "https://raw.githubusercontent.com/sazhak/sazhak/main/public/avatar.jpg"  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
 #   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
@@ -57,8 +57,8 @@ colorPreset: "slate"    # Options: indigo | emerald | rose | amber | ocean | sla
                            #   → or grab one from coolors.co / your favourite site's colour
 
 resumeTheme:
-  twoColumn: "indigo"    # Accent color for the two-column resume layout
-  classic: "emerald"     # Accent color for the classic resume layout
+  twoColumn: "stale"    # Accent color for the two-column resume layout
+  classic: "stale"     # Accent color for the classic resume layout
 
 contactFormEndpoint: ""  # Optional — paste a Formspree URL (https://formspree.io/f/xxxx)
                            # or any POST endpoint that accepts {name, email, message}.
