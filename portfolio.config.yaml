@@ -81,7 +81,7 @@ sections:
 
 # ── Social links ───────────────────────────── (leave blank to hide) ───
 social:
-  github:   "https://github.com/sazhak"
+  github:   ""
   linkedin: "https://www.linkedin.com/in/alexander-kolomiets-93188b417"
   twitter:  ""
   website:  ""
@@ -90,10 +90,15 @@ social:
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
   Backend developer with 5+ years of commercial experience in fintech systems. Specialise in Java/Kotlin, Spring Boot, and high-load services.
+  
   Experience as a co-founder of an IoT startup: single-handedly built a full-stack system (backend, frontend in Angular, DevOps, and software for Raspberry Pi in Python), assembled a team, and led the project to a government grant and interregional clients.
+  
   Working at the intersection of technology and product - I design architecture, write code, conduct code reviews, mentor junior colleagues, and act as a substitute team leader.
+  
   Participated in numerous hackathons as a team captain and took prize places.
+  
   Author of technical articles with 85,000+ views
+  
   C1 level Cambridge English Certificate, prepared to communicate with international teams and clients.
 
 
@@ -116,8 +121,8 @@ stats:
 # level options: Native | Fluent | Conversational | Basic
 languages:
   - { name: "Russian",  level: "Native"        }
-  - { name: "English",  level: "C1" }
-  - { name: "Spanish", level: "A1"          }
+  - { name: "English",  level: "Fluent" }
+  - { name: "Spanish", level: "Basic"          }
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
@@ -140,34 +145,139 @@ skills:
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
-  - company: "Acme Corp"
-    role: "Senior Full-Stack Engineer"
-    period: "2022 – Present"
+  - company: "Solanteq"
+    role: "Java/Kotlin Sotfware Engineer"
+    period: "2021 – Present"
     description: |
-      Led migration of monolithic Rails app to microservices.
-      Reduced p99 latency by 60%. Mentored a team of 4 engineers.
+      Project:
+      Functional, regression, and load testing system for electronic payments
+
+      Responsibilities:
+      - Design and development of an SOA architecture using Java 17, Kotlin, and Spring Boot
+      - Implementation of high-load protocol services (gRPC, SOAP, UAMP, TCP) and integration buses
+      - Working with relational DBMS (PostgreSQL, Oracle) via Hibernate/JPA, query optimization, and N+1 troubleshooting
+      - Conducting code reviews, technical refinement sessions, and writing project documentation
+      - Preparing and releasing product releases
+      - Ensuring service stability: promptly handling incidents within SLAs
+
+      Managerial and leadership achievements:
+      - Acted as Team Lead (up to 2 months per year, team of 10): conducted daily stand-up and planning poker sessions, planned the roadmap, evaluated and approved architectural solutions, and conducted onboarding of new employees
+      - Organized a lecture series on modules for which I was responsible, resulting in the number of developers capable of supporting these modules growing from 2 to 5.
+      - Trained 3 interns, 2 of whom later joined the core team.
+
+      Achievements:
+      - Developed a turnkey (from requirements gathering to integration tests) transaction emulation module for the Fast Payments System (C2C, B2C, C2B, information requests) with a sustained load of over 1000 tps. The product was implemented in the testing environment of three of Russia's top 10 banks.
+      - Designed an auditing module that ensured 100% security of user actions in a distributed environment and their transfer to external systems without data loss.
+      - Developed a module for seamless integration of the company's products with S3 file systems (Amazon S3, Ceph S3), which unified object storage workflows for eight product teams.
+      - Proactively developed a web service for full-text search across 700+ corporate GitLab repositories, with index creation from scratch taking less than 1 hour. The project has been integrated into team workflows and is currently used by 150+ company employees.
+
+      Technologies:
+      - Architectural approaches: SOA, DDD, Clean Architecture
+      - Languages: Java 17, Kotlin 2.1
+      - Frameworks: Spring Framework 5.x (Core, MVC, AOP, Security, Data), Spring Boot 3.x, JPA / Hibernate
+      - Web: REST, SOAP, gRPC, TCP, ISO 8583, UAMP
+      - Reactive: Netty
+      - Databases: PostgreSQL, Oracle, Liquibase
+      - Messaging: RabbitMQ, Kafka, JMS
+      - Metrics: Micrometer, OpenTelemetry
+      - Full-text search: Lucene
+      - DevOps / Infrastructure: Docker, TeamCity, GitLab CI, Nexus, Maven
+      - Testing: JUnit, Mockito, Testcontainers, Selenium
+      - Security: Spring Security, JWT, LDAP, Active Directory
+      - Operating systems: Linux (Ubuntu)
     highlights:
       - Microservices migration
       - 60% latency reduction
       - Team leadership
 
-  - company: "Startup XYZ"
-    role: "Software Engineer"
-    period: "2020 – 2022"
+  - company: "CapyPrint (Startup)"
+    role: "Co-founder & CTO / Technical Lead"
+    period: "2025-02 – 2025-10"
     description: |
-      Built real-time collaboration features for a SaaS platform serving
-      50k users. Owned the entire frontend from scratch.
+      Project:
+      B2B automated printing platform, cloud solution for managing a network of Raspberry Pi-based printing terminals
+
+      Responsibilities:
+      - Design and implementation of the backend core in Java 17 / Kotlin, integration with the Telegram Bot API for device management, creation of a payment module based on ЮKassa
+      - Development of an Angular SPA interface for real-time device network monitoring
+      - Development of Python software for Raspberry Pi, enabling terminal communication with the cloud via MQTT and processing of print commands
+      - Managing a development team (4 people), creating a roadmap, translating business hypotheses into technical specifications, and backlog prioritization
+      - Implementation of CI/CD (GitHub Actions), release cycle management, and writing technical documentation
+
+      Achievements:
+      - Designed the system architecture from scratch and organized the development process, which enabled the implementation of an MVP in two months and attracted a grant of 1 million rubles from the Foundation for Assistance to Small Innovative Enterprises (FASIE). Assembled and led a cross-functional team, building business processes and establishing communication from scratch.
+      - Conducted a series of technical demo sessions for potential clients on real equipment, which resulted in two pilot agreements.
+      - Automated builds and testing via GitHub Actions, ensuring a predictable release cycle.
+
+      Technologies:
+      - Architectural approaches: Layered Architecture, Event-driven
+      - Languages: Java 17, Kotlin 2.1, JavaScript (TypeScript), Python 3
+      - Frameworks: Spring Framework 5.x (Core, MVC, AOP, Security, Data), Spring Boot 3.x, JPA / Hibernate, Angular
+      - Web: REST
+      - API: Telegram Bot, ЮKassa
+      - Databases: PostgreSQL
+      - Messaging: MQTT
+      - DevOps / Infrastructure: Docker, GitHub Actions, Repsy, Maven
+      - Testing: JUnit, Mockito
+      - Operating systems: Linux (Ubuntu)
     highlights:
       - Real-time collaboration
       - 50k users
       - Frontend ownership
 
-  - company: "Freelance"
-    role: "Web Developer"
-    period: "2018 – 2020"
+  - company: "Lanit-Tercom"
+    role: "Java Developer"
+    period: "2021-02 – 2021-06"
     description: |
-      Delivered 20+ web projects for small businesses and agencies across
-      e-commerce, marketing, and internal tools.
+      Project:
+      Service for completing educational courses and preparing for interviews
+
+      Responsibilities:
+      - Backend development using Java 11 and Spring Boot with MySQL data storage (Hibernate/JPA)
+      - REST API design and documentation (Swagger), integration with the frontend
+      - Participation in code reviews, maintenance of codebase quality and unit test coverage
+
+      Achievements:
+      - Designed the database schema and service architecture (layered architecture) from layers to API contracts, which formed the basis for further project development
+      - Developed the REST API and successfully integrated it with the frontend, ensuring seamless data transfer without rework during the integration phase
+      - Achieved unit test coverage of over 50% of the codebase
+      - Developed and published a Java IO/NIO wrapper library in the corporate Maven repository, which was adopted by two teams
+
+      Technologies:
+      - Architectural Approaches: Layered Architecture
+      - Languages: Java 11
+      - Frameworks: Spring Framework 3.x (Core, MVC, Data), Spring Boot 2.x, JPA / Hibernate
+      - Web: REST, Swagger
+      - Databases: MySQL
+      - DevOps / Infrastructure: GitHub Actions, Nexus, Maven
+      - Testing: JUnit, Mockito
+      - Security: Spring Security, JWT
+    highlights:
+      - 20+ projects
+      - E-commerce
+      - Internal tools
+
+  - company: "Vigo Lab"
+    role: "Java Developer (Intern)"
+    period: "2020-07 – 2020-08"
+    description: |
+      Project:
+      Data transmission quality analytics system for mobile operator network
+
+      Responsibilities:
+      - Backend development in Java 8: implementation of new functionality, bug fixing, writing of unit tests
+      - Integration of legacy components with the modern system architecture
+      - Optimization of data transmission formats and database migration
+
+      Achievements:
+      - Implemented an adapter for connecting legacy modules to the current system version, ensuring seamless integration of legacy code
+      - Developed a data conversion mechanism from JSON to MessagePack to optimize the transmission format, reducing the volume of data transferred by 10%
+      - Wrote database migration scripts, automating the transition to a new storage structure
+
+      Technologies:
+      - Languages: Java 8
+      - Web: REST, MessagePack
+      - Testing: JUnit
     highlights:
       - 20+ projects
       - E-commerce
