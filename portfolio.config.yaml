@@ -108,6 +108,10 @@ about: |
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
 stats:
+  - { label: "Years Experience", value: 5,    suffix: "+" }
+  - { label: "Active Users", value: 150,   suffix: "+" }
+  - { label: "Government Grant",    value: 1000000,   prefix: "₽" }
+  - { label: "Managed team", value: 10,   suffix: "members" }
 
 # Examples of other combinations you can use:
 #   - { label: "Active Users",    value: 10000, suffix: "+" }
