@@ -19,7 +19,7 @@ showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge i
 # ── Identity ───────────────────────────────────────────── (required) ──
 name: "Alexander Kolomiets"              # Your name — shown in the header and used as a fallback in the avatar
 title: "Java/Kotlin Software Engineer"
-tagline: "5+ years of experience"
+tagline: "I build systems that scale — from MVP to 1000+ TPS"
 email: "kaa5843771@yandex.ru"
 phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
 location: "Saint Petersburg, Russia"
@@ -72,7 +72,7 @@ sections:
   - { id: skills,         show: true  }
   - { id: languages,      show: true  }
   - { id: experience,     show: true  }
-  - { id: projects,       show: true  }
+  - { id: projects,       show: false  }
   - { id: education,      show: true  }
   - { id: certifications, show: true  }
   - { id: publications,   show: false }
@@ -127,19 +127,19 @@ languages:
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
   - category: "Architechute"
-    items: [SOA, DDD, Clean Architecture]
+    items: [SOA, DDD, Clean Architecture, Layered Architecture]
   - category: "Languages"
-    items: [Java, Kotlin]
+    items: [Java, Kotlin, Python, JavsScript (TypeScript)]
   - category: "Frameworks"
-    items: [Spring Framework 5.x (Core, MVC, AOP, Security, Data), Spring Boot 3.x, JPA / Hibernate]
+    items: [Spring Framework 5.x (Core, MVC, AOP, Security, Data), Spring Boot 3.x, JPA / Hibernate, Angular]
   - category: "Web"
-    items: [REST, SOAP, gRPC, TCP, ISO 8583, UAMP]
+    items: [REST, SOAP, gRPC, TCP, ISO 8583, UAMP, MessagePack]
   - category: "Databases"
     items: [PostgreSQL, Oracle, Liquibase]
   - category: "Messaging"
     items: [RabbitMQ, Kafka, JMS]
   - category: "DevOps / Infrastructure"
-    items: [Docker, TeamCity, GitLab CI, Nexus, Maven]
+    items: [Docker, TeamCity, GitLab CI, GitHub Actions, Nexus, Maven]
   - category: "Testing"
     items: [JUnit, Mockito, Testcontainers, Selenium]
 
@@ -254,9 +254,9 @@ education:
 
 # ── Certifications ─────────────────────────────────────────────────────
 certifications:
-  - title: "Google Professional Data Engineer"
-    issuer: "Google Cloud"
-    date: "2021"
+  - title: "Certificate in Advanced English (C1 Advanced)"
+    issuer: "Cambridge Certificate"
+    date: "2020"
     credentialUrl: ""
     badgeUrl: ""
     tags: [English]
@@ -342,6 +342,6 @@ testimonials:
 # Then write your post in plain Markdown below the closing ---.
 # See the sample posts in blog/ to get started.
 blog:
-  enabled: true
+  enabled: false
   title: "Blog"
   description: "Thoughts, stories and ideas — everything in one place."
