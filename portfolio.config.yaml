@@ -261,7 +261,7 @@ experience:
     role: "Java Developer (Intern)"
     period: "2020-07 – 2020-08"
     description: |
-      Project:<br>
+      Project:
       Data transmission quality analytics system for mobile operator network
 
       Responsibilities:
@@ -316,9 +316,12 @@ projects:
 
 # ── Education ──────────────────────────────────────────────────────────
 education:
-  - institution: "University of California, Berkeley"
-    degree: "B.S. Computer Science"
-    period: "2014 – 2018"
+  - institution: "ITMO University"
+    degree: "Master's degree, High-tech business management"
+    period: "2023 – 2025"
+  - institution: "Saint Petersburg State University"
+    degree: "Bachelor, Programming and information technology"
+    period: "2019 – 2023"
 
 # ── Certifications ─────────────────────────────────────────────────────
 certifications:
