@@ -19,7 +19,7 @@ showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge i
 # ── Identity ───────────────────────────────────────────── (required) ──
 name: "Alexander Kolomiets"              # Your name — shown in the header and used as a fallback in the avatar
 title: "Java/Kotlin Software Engineer"
-tagline: "I build free portfolios and resumes for everyone."
+tagline: "5+ years of experience"
 email: "kaa5843771@yandex.ru"
 phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
 location: "Saint Petersburg, Russia"
@@ -81,18 +81,20 @@ sections:
 
 # ── Social links ───────────────────────────── (leave blank to hide) ───
 social:
-  github:   "https://github.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
+  github:   "https://github.com/sazhak"
+  linkedin: "https://www.linkedin.com/in/alexander-kolomiets-93188b417"
   twitter:  ""
   website:  ""
 
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-  I'm a portfolio-resume engineer with 5+ years of experience building products
-  that people love. I specialize in React, Node.js, and distributed systems.
-  When I'm not coding, I'm hiking trails or experimenting with new coffee
-  brewing methods.
+  Backend developer with 5+ years of commercial experience in fintech systems. Specialise in Java/Kotlin, Spring Boot, and high-load services.
+  Experience as a co-founder of an IoT startup: single-handedly built a full-stack system (backend, frontend in Angular, DevOps, and software for Raspberry Pi in Python), assembled a team, and led the project to a government grant and interregional clients.
+  Working at the intersection of technology and product - I design architecture, write code, conduct code reviews, mentor junior colleagues, and act as a substitute team leader.
+  Participated in numerous hackathons as a team captain and took prize places.
+  Author of technical articles with 85,000+ views
+  C1 level Cambridge English Certificate, prepared to communicate with international teams and clients.
 
 
 # ── Stats ──────────────────────────────────────────────────────────────
@@ -104,7 +106,6 @@ stats:
   - { label: "Years Experience", value: 5,    suffix: "+" }
   - { label: "Projects Shipped", value: 20,   suffix: "+" }
   - { label: "Happy Clients",    value: 50,   suffix: "+" }
-  - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
 
 # Examples of other combinations you can use:
 #   - { label: "Active Users",    value: 10000, suffix: "+" }
@@ -114,20 +115,28 @@ stats:
 # ── Languages ──────────────────────────────────────────────────────────
 # level options: Native | Fluent | Conversational | Basic
 languages:
-  - { name: "English",  level: "Native"        }
-  - { name: "Spanish",  level: "Conversational" }
-  - { name: "Mandarin", level: "Basic"          }
+  - { name: "Russian",  level: "Native"        }
+  - { name: "English",  level: "C1" }
+  - { name: "Spanish", level: "A1"          }
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
-  - category: "Frontend"
-    items: [React, TypeScript, Next.js, Tailwind CSS, Framer Motion]
-  - category: "Backend"
-    items: [Node.js, Express, PostgreSQL, Redis, GraphQL]
-  - category: "DevOps"
-    items: [Docker, AWS, CI/CD, Kubernetes, Terraform]
-  - category: "Tools"
-    items: [Git, Figma, Jest, Storybook, Datadog]
+  - category: "Architechute"
+    items: [SOA, DDD, Clean Architecture]
+  - category: "Languages"
+    items: [Java, Kotlin]
+  - category: "Frameworks"
+    items: [Spring Framework 5.x (Core, MVC, AOP, Security, Data), Spring Boot 3.x, JPA / Hibernate]
+  - category: "Web"
+    items: [REST, SOAP, gRPC, TCP, ISO 8583, UAMP]
+  - category: "Databases"
+    items: [PostgreSQL, Oracle, Liquibase]
+  - category: "Messaging"
+    items: [RabbitMQ, Kafka, JMS]
+  - category: "DevOps / Infrastructure"
+    items: [Docker, TeamCity, GitLab CI, Nexus, Maven]
+  - category: "Testing"
+    items: [JUnit, Mockito, Testcontainers, Selenium]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
