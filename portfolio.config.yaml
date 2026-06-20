@@ -130,7 +130,7 @@ skills:
   - category: "Architechute"
     items: [SOA, DDD, Clean Architecture, Layered Architecture]
   - category: "Languages"
-    items: [Java, Kotlin, Python, JavsScript (TypeScript)]
+    items: [Java, Kotlin, Python, JavaScript (TypeScript)]
   - category: "Frameworks"
     items: [Spring Framework 5.x, Spring Boot 3.x, JPA / Hibernate, Angular]
   - category: "Web"
@@ -143,11 +143,10 @@ skills:
     items: [Docker, TeamCity, GitLab CI, GitHub Actions, Nexus, Maven]
   - category: "Testing"
     items: [JUnit, Mockito, Testcontainers, Selenium]
-
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
   - company: "Solanteq"
-    role: "Java/Kotlin Sotfware Engineer"
+    role: "Java/Kotlin Software Engineer"
     period: "2021 – Present"
     description: |
       Built a high‑load testing system for electronic payments, serving top‑10 Russian banks, using Java 17 and Kotlin. Designed SOA architecture, developed protocol services (gRPC, SOAP, TCP) and integration buses. Worked with PostgreSQL and Oracle via Hibernate — optimized queries, resolved N+1 issues, tuned performance.
