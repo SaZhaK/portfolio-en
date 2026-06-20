@@ -239,10 +239,12 @@ projects:
 # ── Education ──────────────────────────────────────────────────────────
 education:
   - institution: "ITMO University"
-    degree: "Master's degree, High-tech business management"
+    degree: "Master's degree"
+    specialty: "High-tech business management"
     period: "2023 – 2025"
   - institution: "Saint Petersburg State University"
-    degree: "Bachelor, Programming and information technology"
+    degree: "Bachelor"
+    specialty: "Programming and information technology"
     period: "2019 – 2023"
 
 # ── Certifications ─────────────────────────────────────────────────────
@@ -267,14 +269,6 @@ publications:
     type: "conference"
     tags: [distributed-systems, real-time, scalability]
 
-  - title: "Micro-Frontend Architecture Patterns for Large-Scale SPAs"
-    authors: "Rivera A"
-    venue: "IEEE Software"
-    year: "2022"
-    url: ""
-    type: "journal"
-    tags: [frontend, architecture, micro-frontends]
-
 # ── Testimonials ───────────────────────────────────────────────────────
 testimonials:
   - name: "Sarah Chen"
@@ -286,26 +280,6 @@ testimonials:
       working with. They consistently delivered high-quality work on time and
       elevated the entire team's standards.
     photoUrl: ""              # URL to headshot — leave empty for initials
-
-  - name: "James Okafor"
-    title: "Senior Product Designer"
-    company: "Startup XYZ"
-    relationship: "Colleague"
-    quote: |
-      Working with Alex was a joy. They have a rare ability to translate vague
-      product requirements into clean, elegant code. Our collaboration made the
-      product significantly better.
-    photoUrl: ""
-
-  - name: "Priya Nair"
-    title: "CTO"
-    company: "FinTech Ventures"
-    relationship: "Client"
-    quote: |
-      Alex delivered the project ahead of schedule and the code quality was
-      exceptional. They communicated proactively, flagged risks early, and were
-      genuinely invested in our success.
-    photoUrl: ""
 
 # ── Analytics (optional, always free) ──────────────────────────────────────
 # Two ways to track who visits your portfolio — both free, no credit card:
