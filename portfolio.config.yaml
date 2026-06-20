@@ -155,7 +155,7 @@ experience:
     highlights:
       - FinTech
       - Team Leadership
-      - System Design (SOA/DDD)
+      - System Design
       - Java
       - Kotlin
       - Spring Framework
@@ -185,7 +185,6 @@ experience:
       Achieved 50%+ unit test coverage, significantly reducing regression bugs. Built and published a Java IO/NIO wrapper library to the corporate Maven repo — adopted by 2 other teams, simplifying file operations across projects and lowering the entry barrier for new developers.
     highlights:
       - EdTech
-      - Layered Architecture
       - Library Development
       - Unit Testing
       - Java
@@ -199,10 +198,10 @@ experience:
       First internship — worked on a data transmission quality analytics system for a telecom operator. Developed new features, fixed bugs, and wrote unit tests in Java 8.
       Built an adapter to bridge legacy modules with the modern system, keeping old code running without rewriting. Designed a JSON‑to‑MessagePack converter, cutting data transfer volume by 10%. Wrote database migration scripts, fully automating the transition to a new storage schema and eliminating manual operations in production.
     highlights:
-      - Telecom (Mobile Networks)
+      - Telecom
       - Legacy Integration
       - Database Migration
-      - Data Optimization (-10% size)
+      - Data Optimization
       - Java
 
 # ── Projects ───────────────────────────────────────────────────────────
