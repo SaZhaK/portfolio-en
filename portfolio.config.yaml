@@ -156,9 +156,7 @@ experience:
       - FinTech
       - Team Leadership
       - System Design
-      - Java
-      - Kotlin
-      - Spring Framework
+      - High-load
       - Amazon S3
       - Apache Lucene
 
@@ -187,8 +185,6 @@ experience:
       - EdTech
       - Library Development
       - Unit Testing
-      - Java
-      - Spring Framework
       - REST API / Swagger
 
   - company: "Vigo Lab"
@@ -202,7 +198,6 @@ experience:
       - Legacy Integration
       - Database Migration
       - Data Optimization
-      - Java
 
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
