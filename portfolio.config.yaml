@@ -199,11 +199,11 @@ experience:
       First internship — worked on a data transmission quality analytics system for a telecom operator. Developed new features, fixed bugs, and wrote unit tests in Java 8.
       Built an adapter to bridge legacy modules with the modern system, keeping old code running without rewriting. Designed a JSON‑to‑MessagePack converter, cutting data transfer volume by 10%. Wrote database migration scripts, fully automating the transition to a new storage schema and eliminating manual operations in production.
     highlights:
-  - Telecom (Mobile Networks)
-  - Legacy Integration
-  - Database Migration
-  - Data Optimization (-10% size)
-  - Java
+      - Telecom (Mobile Networks)
+      - Legacy Integration
+      - Database Migration
+      - Data Optimization (-10% size)
+      - Java
 
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
