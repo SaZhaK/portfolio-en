@@ -132,7 +132,7 @@ skills:
   - category: "Languages"
     items: [Java, Kotlin, Python, JavsScript (TypeScript)]
   - category: "Frameworks"
-    items: [Spring Framework 5.x (Core, MVC, AOP, Security, Data), Spring Boot 3.x, JPA / Hibernate, Angular]
+    items: [Spring Framework 5.x, Spring Boot 3.x, JPA / Hibernate, Angular]
   - category: "Web"
     items: [REST, SOAP, gRPC, TCP, ISO 8583, UAMP, MessagePack]
   - category: "Databases"
