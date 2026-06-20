@@ -128,19 +128,19 @@ languages:
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
   - category: "Architechute"
-    items: [SOA, DDD, Clean Architecture, Layered Architecture]
+    items: [DDD, SOA, Clean Architecture, Layered Architecture]
   - category: "Languages"
-    items: [Java, Kotlin, Python, JavaScript (TypeScript)]
+    items: [Java, Kotlin, Python, JavaScript]
   - category: "Frameworks"
     items: [Spring Framework 5.x, Spring Boot 3.x, JPA / Hibernate, Angular]
   - category: "Web"
-    items: [REST, SOAP, gRPC, TCP, ISO 8583, UAMP, MessagePack]
+    items: [REST, SOAP, HTTP, gRPC, TCP, ISO 8583, UAMP, MessagePack, Swagger]
   - category: "Databases"
-    items: [PostgreSQL, Oracle, Liquibase]
+    items: [PostgreSQL, Oracle, MySQL, Liquibase]
   - category: "Messaging"
     items: [RabbitMQ, Kafka, JMS, MQTT]
   - category: "DevOps / Infrastructure"
-    items: [Docker, TeamCity, GitLab CI, GitHub Actions, Nexus, Maven]
+    items: [Docker, TeamCity, GitLab CI, GitHub Actions, Nexus, Maven, Amazon S3]
   - category: "Testing"
     items: [JUnit, Mockito, Testcontainers, Selenium]
 # ── Experience ─────────────────────────────────────────────────────────
@@ -150,20 +150,17 @@ experience:
     period: "2021 – Present"
     description: |
       Built a high‑load testing system for electronic payments, serving top‑10 Russian banks, using Java 17 and Kotlin. Designed SOA architecture, developed protocol services (gRPC, SOAP, TCP) and integration buses. Worked with PostgreSQL and Oracle via Hibernate — optimized queries, resolved N+1 issues, tuned performance.
-      Acted as Team Lead for a team of 10 (up to 2 months per year): ran daily stand‑ups, planning sessions, roadmap planning, architectural reviews, and onboarding of newcomers. Organized internal tech lectures on critical modules, reducing bus factor from 2 to 5 developers. Mentored 3 interns, 2 of whom later joined the core team.
-      Built a turnkey Fast Payments System emulator handling 1000+ TPS — deployed in 3 top‑10 banks. Designed a distributed audit module with guaranteed event delivery over Kafka. Developed an S3 abstraction layer (Amazon S3, Ceph S3) adopted by 8 product teams. Initiated and built a full‑text search service over 700+ GitLab repos using Lucene — now used by 150+ employees
+      Acted as Team Lead for a team of 10 (up to 2 months per year): ran daily stand‑ups, planning poker sessions, conducted roadmap planning, architectural reviews, and onboarding of newcomers. Organized internal tech lectures on critical modules, reducing bus factor from 2 to 5 developers. Mentored 3 interns, 2 of whom later joined the core team.
+      Built a turnkey Fast Payments System emulator handling 1000+ TPS — deployed in 3 top‑10 banks. Designed a distributed audit module with event delivery to external systems. Developed an S3 abstraction layer (Amazon S3, Ceph S3) adopted by 8 product teams. Initiated and built a full‑text search service over 700+ GitLab repos using Lucene which is now used by 150+ employees
     highlights:
       - FinTech
-      - Java
-      - Kotlin
-      - Spring Boot
-      - PostgreSQL
-      - Kafka
-      - gRPC
       - Team Leadership
       - System Design (SOA/DDD)
-      - S3
-      - Lucene
+      - Java
+      - Kotlin
+      - Spring Framework
+      - Amazon S3
+      - Apache Lucene
 
   - company: "CapyPrint (Startup)"
     role: "Co-founder & CTO / Technical Lead"
@@ -172,31 +169,28 @@ experience:
       Co‑founder of a B2B printing startup. Single‑handedly built the entire full‑stack system: Java/Kotlin backend, Angular frontend, Python software for Raspberry Pi terminals, integration with Telegram Bot API and ЮKassa payment gateway. Connected edge devices to the cloud via MQTT.
       Built and led a cross‑functional team of 4 developers from scratch, establishing all processes and workflows. Delivered a working MVP in just 2 months, secured a 1M RUB government grant, and closed 2 pilot agreements with real customers. Set up CI/CD with GitHub Actions, ensuring predictable and fast release cycles.
     highlights:
+      - IoT
       - Startup
-      - IoT (Raspberry Pi / Python)
-      - Full‑Stack (Java + Angular)
+      - Full‑stack development
       - Team Building
-      - MVP in 2 months
-      - Government Grant
-      - MQTT
-      - Telegram Bot API 
-      - Payment Integration (ЮKassa)
+      - Government funding
+      - Telegram Bot API
+      - Payment Integration
 
   - company: "Lanit-Tercom"
     role: "Java Developer"
     period: "2021-02 – 2021-06"
     description: |
-      Backend developer for an EdTech platform (course delivery and interview prep). Worked with Java 11, Spring Boot, and MySQL (Hibernate). Designed the database schema and service architecture (layered) from scratch, documented REST APIs via Swagger, and integrated with the frontend without friction.
+      Backend developer for an EdTech platform (course delivery and interview preparation). Worked with Java, Spring and MySQL. Designed the database schema and service architecture (layered) from scratch, documented REST APIs via Swagger, and integrated with the frontend without friction.
       Achieved 50%+ unit test coverage, significantly reducing regression bugs. Built and published a Java IO/NIO wrapper library to the corporate Maven repo — adopted by 2 other teams, simplifying file operations across projects and lowering the entry barrier for new developers.
     highlights:
       - EdTech
-      - Java
-      - Spring Boot 
-      - REST API / Swagger
-      - MySQL / Hibernate 
-      - Unit Testing (50%+ coverage) 
-      - Library Development (IO/NIO)
       - Layered Architecture
+      - Library Development
+      - Unit Testing
+      - Java
+      - Spring Framework
+      - REST API / Swagger
 
   - company: "Vigo Lab"
     role: "Java Developer (Intern)"
@@ -205,12 +199,11 @@ experience:
       First internship — worked on a data transmission quality analytics system for a telecom operator. Developed new features, fixed bugs, and wrote unit tests in Java 8.
       Built an adapter to bridge legacy modules with the modern system, keeping old code running without rewriting. Designed a JSON‑to‑MessagePack converter, cutting data transfer volume by 10%. Wrote database migration scripts, fully automating the transition to a new storage schema and eliminating manual operations in production.
     highlights:
-      - Telecom (Mobile Networks) 
-      - Java
-      - Legacy Integration 
-      - MessagePack 
-      - Data Optimization (-10% size) 
-      - Database Migration
+  - Telecom (Mobile Networks)
+  - Legacy Integration
+  - Database Migration
+  - Data Optimization (-10% size)
+  - Java
 
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
